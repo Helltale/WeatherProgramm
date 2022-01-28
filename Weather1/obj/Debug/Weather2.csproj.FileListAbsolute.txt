@@ -1,0 +1,17 @@
+C:\Users\Админ\source\repos\Weather1\Weather1\bin\Debug\Weather1.exe.config
+C:\Users\Админ\source\repos\Weather1\Weather1\bin\Debug\Weather1.exe
+C:\Users\Админ\source\repos\Weather1\Weather1\bin\Debug\Weather1.pdb
+C:\Users\Админ\source\repos\Weather1\Weather1\bin\Debug\Json.Net.dll
+C:\Users\Админ\source\repos\Weather1\Weather1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Админ\source\repos\Weather1\Weather1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Админ\source\repos\Weather1\Weather1\obj\Debug\Weather2.csprojAssemblyReference.cache
+C:\Users\Админ\source\repos\Weather1\Weather1\obj\Debug\Weather1.Form1.resources
+C:\Users\Админ\source\repos\Weather1\Weather1\obj\Debug\Weather1.Properties.Resources.resources
+C:\Users\Админ\source\repos\Weather1\Weather1\obj\Debug\Weather2.csproj.GenerateResource.cache
+C:\Users\Админ\source\repos\Weather1\Weather1\obj\Debug\Weather2.csproj.CoreCompileInputs.cache
+C:\Users\Админ\source\repos\Weather1\Weather1\obj\Debug\Weather2.csproj.CopyComplete
+C:\Users\Админ\source\repos\Weather1\Weather1\obj\Debug\Weather1.exe
+C:\Users\Админ\source\repos\Weather1\Weather1\obj\Debug\Weather1.pdb
+C:\Users\Админ\source\repos\Weather1\Weather1\bin\Debug\ru-RU\Weather1.resources.dll
+C:\Users\Админ\source\repos\Weather1\Weather1\obj\Debug\Weather1.Form1.ru-RU.resources
+C:\Users\Админ\source\repos\Weather1\Weather1\obj\Debug\ru-RU\Weather1.resources.dll
