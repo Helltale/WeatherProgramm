@@ -37,17 +37,18 @@ namespace Weather1
         {
             using (WebClient web = new WebClient())
             {
-                string url = string.Format("http://api.openweathermap.org/data/2.5/weather?q={0}&appid={1}", textBox1.Text, APIKey);
+                string url = string.Format("http://api.openweathermap.org/data/2.5/weather?q={0}&units=metric&appid={1}", textBox1.Text, APIKey);
                 var json = web.DownloadString(url);
                 WeatherInfo.root Info = JsonConvert.DeserializeObject<WeatherInfo.root>(json);
 
                 pictureBox1.ImageLocation = "http://openweathermap.org/img/w/" + Info.weather[0].icon + ".png";
-                label2.Text = Info.weather[0].main; //condition
-                label4.Text = Info.weather[0].main; //details
-                label8.Text = convertDateTime(Info.sys.sunset).ToShortTimeString(); //sunset
-                label7.Text = convertDateTime(Info.sys.sunrise).ToShortTimeString(); //sunrise
-                label10.Text = Info.wind.speed.ToString(); //wind
-                label11.Text = Info.main.pressure.ToString(); //presure
+                label2.Text = Info.weather[0].main;                                          //condition
+                label4.Text = Info.weather[0].main;                                          //details
+                label8.Text = convertDateTime(Info.sys.sunset).ToShortTimeString();          //sunset
+                label7.Text = convertDateTime(Info.sys.sunrise).ToShortTimeString();         //sunrise
+                label10.Text = Info.wind.speed.ToString();                                   //wind
+                label11.Text = Info.main.pressure.ToString();                                //presure
+                label13.Text = Info.main.temp.ToString();                                    //temp
             }
         }
 
@@ -77,7 +78,7 @@ namespace Weather1
 
         private void button4_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Данная программа предназначена для определения определения некоторых метеорологических данных\n\n\nv1.0");
+            MessageBox.Show("Данная программа предназначена для определения определения некоторых метеорологических данных\n\n\nv1.1");
         }
 
         private void groupBox2_Enter(object sender, EventArgs e)
