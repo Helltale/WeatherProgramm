@@ -63,12 +63,13 @@ namespace Weather1
         {
             pictureBox1.Image = null;
             textBox1.Text = "";
-            label2.Text = "*"; //condition
-            label4.Text = "*"; //details
-            label8.Text = "*"; //sunset
-            label7.Text = "*"; //sunrise
-            label10.Text = "*"; //wind
-            label11.Text = "*"; //presure
+            label2.Text = "*";          //condition
+            label4.Text = "*";          //details
+            label8.Text = "*";          //sunset
+            label7.Text = "*";          //sunrise
+            label10.Text = "*";         //wind
+            label11.Text = "*";         //presure
+            label13.Text = "*";         //temp
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -78,7 +79,7 @@ namespace Weather1
 
         private void button4_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Данная программа предназначена для определения определения некоторых метеорологических данных\n\n\nv1.1");
+            MessageBox.Show("Данная программа предназначена для определения определения некоторых метеорологических данных\n\n\nv1.2.1");
         }
 
         private void groupBox2_Enter(object sender, EventArgs e)
